@@ -19,7 +19,10 @@ import {
   Braces,
   react,
   database,
-  git_t
+  git_t,
+  linksaver,
+  shuffle,
+  socialpedia
 } from "../assets";
 
 export const navLinks = [
@@ -143,7 +146,7 @@ const experiences = [
   {
     title: "Versatile Tech Professional",
     company_name: "",
-    icon: "",
+    icon: shuffle,
     iconBg: "#E6DEDD",
     date: "",
     points: [
@@ -184,9 +187,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Links Saver",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to add Youtube Links and the app fetches the name, duration, channel Name and shows to the user.",
     tags: [
       {
         name: "react",
@@ -197,53 +200,36 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "Node.js",
+        color: "green-text-gradient",
       },
     ],
-    image: carrent,
+    image: linksaver,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "SocialPedia",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web-based Social Media platform that allows users to add post, add/remove Friends, read comments. It has a DarkMode/lighMode Switch to switch between light mide and dark mode.",
     tags: [
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "white-text-gradient",
+      },
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Node.js",
         color: "green-text-gradient",
       },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
+    image: socialpedia,
     source_code_link: "https://github.com/",
   },
 ];

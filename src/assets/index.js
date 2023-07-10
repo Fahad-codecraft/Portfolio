@@ -26,10 +26,13 @@ import Braces from "./company/Braces.png"
 import react from "./company/reactjs.png"
 import database from "./company/database.png" 
 import git_t from "./company/git_T.png"
+import shuffle from "./company/versatile.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import linksaver from "./Link-Saver.png"
+import socialpedia from "./Socialpedia.png"
 
 export {
   logo,
@@ -59,5 +62,8 @@ export {
   Braces,
   react,
   database,
-  git_t
+  git_t,
+  linksaver,
+  shuffle,
+  socialpedia
 };
