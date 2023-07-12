@@ -28,9 +28,6 @@ import database from "./company/database.png"
 import git_t from "./company/git_T.png"
 import shuffle from "./company/versatile.png"
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import linksaver from "./Link-Saver.png"
 import socialpedia from "./Socialpedia.png"
 
@@ -56,9 +53,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  carrent,
-  jobit,
-  tripguide,
   Braces,
   react,
   database,
