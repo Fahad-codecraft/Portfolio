@@ -30,6 +30,11 @@ import shuffle from "./company/versatile.png"
 
 import linksaver from "./Link-Saver.png"
 import socialpedia from "./Socialpedia.png"
+import tsks from "./Tsks.png"
+
+
+import linkSaverIcon from "./projectIcons/linksaverIcon.png"
+import tsksIcon from "./projectIcons/TsksIcon.png"
 
 export {
   logo,
@@ -59,5 +64,8 @@ export {
   git_t,
   linksaver,
   shuffle,
-  socialpedia
+  socialpedia,
+  tsks,
+  linkSaverIcon,
+  tsksIcon
 };

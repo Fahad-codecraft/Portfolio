@@ -19,7 +19,11 @@ import {
   git_t,
   linksaver,
   shuffle,
-  socialpedia
+  socialpedia,
+  tsks,
+  tsksIcon,
+  linkSaverIcon,
+  github
 } from "../assets";
 
 export const navLinks = [
@@ -202,7 +206,9 @@ const projects = [
       },
     ],
     image: linksaver,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Fahad-codecraft/Link-Saver",
+    projIcon: linkSaverIcon,
+    project_link: "https://ytlinksaver.vercel.app"
   },
   {
     name: "SocialPedia",
@@ -227,7 +233,36 @@ const projects = [
       },
     ],
     image: socialpedia,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Fahad-codecraft/SocialPedia",
+    projIcon: github,
+    project_link: "https://github.com/Fahad-codecraft/SocialPedia"
+  },
+  {
+    name: "Tsks - Todo App",
+    description:
+      "The ultimate todo app with a sleek interface, interactive animations, sorting options, powerful search, and cross-platform compatibility. Stay organized, complete tasks effortlessly, and boost your productivity with tsks.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "white-text-gradient",
+      },
+    ],
+    image: tsks,
+    source_code_link: "https://github.com/Fahad-codecraft/Todo-App",
+    projIcon: tsksIcon,
+    project_link: "https://tskease.vercel.app"
   },
 ];
 
