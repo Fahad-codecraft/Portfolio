@@ -23,7 +23,9 @@ import {
   tsks,
   tsksIcon,
   linkSaverIcon,
-  github
+  github,
+  breeze,
+  breezeIcon
 } from "../assets";
 
 export const navLinks = [
@@ -263,6 +265,21 @@ const projects = [
     source_code_link: "https://github.com/Fahad-codecraft/Todo-App",
     projIcon: tsksIcon,
     project_link: "https://tskease.vercel.app"
+  },
+  {
+    name: "Breeze - Weather App",
+    description:
+      "Your reliable weather app for the modern explorer. Get a detailed 5-day forecast, precise 3-hour updates, weather types, current temperature, and more to stay ahead of changing conditions and plan your day with confidence.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: breeze,
+    source_code_link: "https://github.com/Fahad-codecraft/weather-app",
+    projIcon: breezeIcon,
+    project_link: "https://breezeweather.vercel.app/"
   },
 ];
 

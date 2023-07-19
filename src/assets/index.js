@@ -31,10 +31,12 @@ import shuffle from "./company/versatile.png"
 import linksaver from "./Link-Saver.png"
 import socialpedia from "./Socialpedia.png"
 import tsks from "./Tsks.png"
+import breeze from "./Breeze.png"
 
 
 import linkSaverIcon from "./projectIcons/linksaverIcon.png"
 import tsksIcon from "./projectIcons/TsksIcon.png"
+import breezeIcon from "./projectIcons/Mist.svg"
 
 export {
   logo,
@@ -67,5 +69,7 @@ export {
   socialpedia,
   tsks,
   linkSaverIcon,
-  tsksIcon
+  tsksIcon,
+  breeze,
+  breezeIcon
 };
