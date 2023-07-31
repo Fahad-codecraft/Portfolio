@@ -25,7 +25,9 @@ import {
   linkSaverIcon,
   github,
   breeze,
-  breezeIcon
+  breezeIcon,
+  notenexus,
+  notenexusIcon
 } from "../assets";
 
 export const navLinks = [
@@ -280,6 +282,21 @@ const projects = [
     source_code_link: "https://github.com/Fahad-codecraft/weather-app",
     projIcon: breezeIcon,
     project_link: "https://breezeweather.vercel.app/"
+  },
+  {
+    name: "NoteNexus - Notes App",
+    description:
+      "Your reliable weather app for the modern explorer. Get a detailed 5-day forecast, precise 3-hour updates, weather types, current temperature, and more to stay ahead of changing conditions and plan your day with confidence.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: notenexus,
+    source_code_link: "https://github.com/Fahad-codecraft/Notes-App",
+    projIcon: notenexusIcon,
+    project_link: "https://notenexus.vercel.app/"
   },
 ];
 

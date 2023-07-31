@@ -32,11 +32,13 @@ import linksaver from "./Link-Saver.png"
 import socialpedia from "./Socialpedia.png"
 import tsks from "./Tsks.png"
 import breeze from "./Breeze.png"
+import notenexus from "./Notenexus.png"
 
 
 import linkSaverIcon from "./projectIcons/linksaverIcon.png"
 import tsksIcon from "./projectIcons/TsksIcon.png"
 import breezeIcon from "./projectIcons/Mist.svg"
+import notenexusIcon from "./projectIcons/notenexus.png"
 
 export {
   logo,
@@ -71,5 +73,7 @@ export {
   linkSaverIcon,
   tsksIcon,
   breeze,
-  breezeIcon
+  breezeIcon,
+  notenexus,
+  notenexusIcon
 };
