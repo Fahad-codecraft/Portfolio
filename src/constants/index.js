@@ -286,11 +286,27 @@ const projects = [
   {
     name: "NoteNexus - Notes App",
     description:
-      "Your reliable weather app for the modern explorer. Get a detailed 5-day forecast, precise 3-hour updates, weather types, current temperature, and more to stay ahead of changing conditions and plan your day with confidence.",
+      "Introducing NoteMaster, your ultimate note-taking companion. Organize your thoughts effortlessly with features to add, favorite, and archive notes. Delete and recover with ease using our convenient trash function. Streamline your note-taking experience and stay productive with NoteMaster!",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "white-text-gradient",
+      },
+      {
+        name: "vite",
+        color: "orange-text-gradient",
       },
     ],
     image: notenexus,
