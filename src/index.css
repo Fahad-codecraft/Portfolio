@@ -113,6 +113,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.color-text-gradient {
+  background: linear-gradient(90.13deg, #4285f4, #db4437, #f4b400, #0f9d58);
+  background: -webkit-linear-gradient(-90.13deg, #4285f4, #db4437, #f4b400, #0f9d58); /* fallback for old browsers */
+  background: linear-gradient(
+    to top,
+    #4285f4,
+    #db4437,
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 
 /* canvas- styles */
 .canvas-loader {

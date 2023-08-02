@@ -33,13 +33,14 @@ import socialpedia from "./Socialpedia.png"
 import tsks from "./Tsks.png"
 import breeze from "./Breeze.png"
 import notenexus from "./Notenexus.png"
+import promptmania from "./Promptmania.png"
 
 
 import linkSaverIcon from "./projectIcons/linksaverIcon.png"
 import tsksIcon from "./projectIcons/TsksIcon.png"
 import breezeIcon from "./projectIcons/Mist.svg"
 import notenexusIcon from "./projectIcons/notenexus.png"
-
+import promptmaniaIcon from "./projectIcons/promptmaniaIcon.svg"
 export {
   logo,
   backend,
@@ -75,5 +76,7 @@ export {
   breeze,
   breezeIcon,
   notenexus,
-  notenexusIcon
+  notenexusIcon,
+  promptmania,
+  promptmaniaIcon
 };

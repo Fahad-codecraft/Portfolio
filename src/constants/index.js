@@ -27,7 +27,9 @@ import {
   breeze,
   breezeIcon,
   notenexus,
-  notenexusIcon
+  notenexusIcon,
+  promptmania,
+  promptmaniaIcon
 } from "../assets";
 
 export const navLinks = [
@@ -313,6 +315,34 @@ const projects = [
     source_code_link: "https://github.com/Fahad-codecraft/Notes-App",
     projIcon: notenexusIcon,
     project_link: "https://notenexus.vercel.app/"
+  },
+  {
+    name: "PromptMania App",
+    description:
+      "Welcome to PromptMania, the ultimate web app for sharing AI prompts! Discover a vast collection of creative ideas without any sign-in hassle. However, to unlock the full potential, simply sign in with Google and start crafting your personalized prompts. With easy editing and tag-based searching, PromptMania is your go-to platform for unleashing your imagination!",
+    tags: [
+      {
+        name: "Next.js",
+        color: "black-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Google Auth",
+        color: "color-text-gradient",
+      },
+
+    ],
+    image: promptmania,
+    source_code_link: "https://github.com/Fahad-codecraft/PromptMania",
+    projIcon: promptmaniaIcon,
+    project_link: "https://promptmania-next.vercel.app/"
   },
 ];
 
