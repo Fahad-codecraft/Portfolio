@@ -29,7 +29,9 @@ import {
   notenexus,
   notenexusIcon,
   promptmania,
-  promptmaniaIcon
+  promptmaniaIcon,
+  threads,
+  threadsIcon
 } from "../assets";
 
 export const navLinks = [
@@ -117,7 +119,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "",
     points: [
-      "HTML", "CSS", "JavaScript", "Python", 
+      "HTML", "CSS", "JavaScript", "Python",
     ],
   },
   {
@@ -215,33 +217,6 @@ const projects = [
     source_code_link: "https://github.com/Fahad-codecraft/Link-Saver",
     projIcon: linkSaverIcon,
     project_link: "https://ytlinksaver.vercel.app"
-  },
-  {
-    name: "SocialPedia",
-    description:
-        "Web-based Social Media platform that allows users to add post, add/remove Friends, read comments. It has a DarkMode/lighMode Switch to switch between light mide and dark mode.",
-    tags: [
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Express.js",
-        color: "white-text-gradient",
-      },
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Node.js",
-        color: "green-text-gradient",
-      },
-    ],
-    image: socialpedia,
-    source_code_link: "https://github.com/Fahad-codecraft/SocialPedia",
-    projIcon: github,
-    project_link: "https://github.com/Fahad-codecraft/SocialPedia"
   },
   {
     name: "Tsks - Todo App",
@@ -343,6 +318,34 @@ const projects = [
     source_code_link: "https://github.com/Fahad-codecraft/PromptMania",
     projIcon: promptmaniaIcon,
     project_link: "https://promptmania-next.vercel.app/"
+  },
+  {
+    name: "Threads Clone",
+    description:
+      "Welcome to Threads clone, here you can login and interact with your friends, you can post a thread, reply to a thread, edit your profile, and much more.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "black-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Google Authentication",
+        color: "color-text-gradient",
+      },
+
+    ],
+    image: threads,
+    source_code_link: "https://github.com/Fahad-codecraft/Threads-App",
+    projIcon: threadsIcon,
+    project_link: "https://threads-app-seven.vercel.app/"
   },
 ];
 

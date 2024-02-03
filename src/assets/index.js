@@ -34,6 +34,7 @@ import tsks from "./Tsks.png"
 import breeze from "./Breeze.png"
 import notenexus from "./Notenexus.png"
 import promptmania from "./Promptmania.png"
+import threads from "./Threads.png"
 
 
 import linkSaverIcon from "./projectIcons/linksaverIcon.png"
@@ -41,6 +42,7 @@ import tsksIcon from "./projectIcons/TsksIcon.png"
 import breezeIcon from "./projectIcons/Mist.svg"
 import notenexusIcon from "./projectIcons/notenexus.png"
 import promptmaniaIcon from "./projectIcons/promptmaniaIcon.svg"
+import threadsIcon  from "./projectIcons/threadsIcon.ico"
 export {
   logo,
   backend,
@@ -78,5 +80,7 @@ export {
   notenexus,
   notenexusIcon,
   promptmania,
-  promptmaniaIcon
+  promptmaniaIcon,
+  threads,
+  threadsIcon
 };
