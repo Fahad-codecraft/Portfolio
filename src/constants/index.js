@@ -31,7 +31,9 @@ import {
   promptmania,
   promptmaniaIcon,
   threads,
-  threadsIcon
+  threadsIcon,
+  bank,
+  horizonIcon
 } from "../assets";
 
 export const navLinks = [
@@ -264,7 +266,35 @@ const projects = [
     image: threads,
     source_code_link: "https://github.com/Fahad-codecraft/Threads-App",
     projIcon: threadsIcon,
-    project_link: "https://threads-app-seven.vercel.app/"
+    project_link: "https://threads13app.vercel.app/sign-in"
+  },
+  {
+    name: "My-banking-app",
+    description:
+      "My-Banking-App is a web application that mirrors key features of major banks, offering users perform transactions, deposit cash(fake money), transfer payment and monitor their finances seamlessly. ",
+    tags: [
+      {
+        name: "Next.js",
+        color: "black-text-gradient",
+      },
+      {
+        name: "Appwrite",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "clerk Auth",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Google Authentication",
+        color: "color-text-gradient",
+      },
+
+    ],
+    image: bank,
+    source_code_link: "https://github.com/Fahad-codecraft/My-Banking-app",
+    projIcon: horizonIcon,
+    project_link: "https://my-banking-app.vercel.app/"
   },
 ];
 

@@ -35,6 +35,7 @@ import breeze from "./Breeze.png"
 import notenexus from "./Notenexus.png"
 import promptmania from "./Promptmania.png"
 import threads from "./Threads.png"
+import bank from "./bank.png"
 
 
 import linkSaverIcon from "./projectIcons/linksaverIcon.png"
@@ -43,6 +44,7 @@ import breezeIcon from "./projectIcons/Mist.svg"
 import notenexusIcon from "./projectIcons/notenexus.png"
 import promptmaniaIcon from "./projectIcons/promptmaniaIcon.svg"
 import threadsIcon  from "./projectIcons/threadsIcon.ico"
+import horizonIcon from "./projectIcons/horizon.svg";
 export {
   logo,
   backend,
@@ -82,5 +84,7 @@ export {
   promptmania,
   promptmaniaIcon,
   threads,
-  threadsIcon
+  threadsIcon,
+  horizonIcon,
+  bank
 };
