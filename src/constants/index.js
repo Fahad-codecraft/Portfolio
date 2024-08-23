@@ -33,7 +33,9 @@ import {
   threads,
   threadsIcon,
   bank,
-  horizonIcon
+  horizonIcon,
+  budget,
+  budgettrackerIcon
 } from "../assets";
 
 export const navLinks = [
@@ -295,6 +297,35 @@ const projects = [
     source_code_link: "https://github.com/Fahad-codecraft/My-Banking-app",
     projIcon: horizonIcon,
     project_link: "https://my-banking-app.vercel.app/"
+  },
+
+  {
+    name: "Budget-Tracker",
+    description:
+      "Budget Tracker is a web application that allows users to track their expenses and income. Users can add, delete, and update transactions. The app also provides a visual representation of the user's transactions in the form of a chart.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "black-text-gradient",
+      },
+      {
+        name: "SQL",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "clerk Auth",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Google Authentication",
+        color: "color-text-gradient",
+      },
+
+    ],
+    image: budget,
+    source_code_link: "https://github.com/Fahad-codecraft/budget-tracker",
+    projIcon: budgettrackerIcon,
+    project_link: "https://budget-tracker-nine-chi.vercel.app/"
   },
 ];
 

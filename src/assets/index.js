@@ -36,6 +36,7 @@ import notenexus from "./Notenexus.png"
 import promptmania from "./Promptmania.png"
 import threads from "./Threads.png"
 import bank from "./bank.png"
+import budget from "./budget-tracker.png"
 
 
 import linkSaverIcon from "./projectIcons/linksaverIcon.png"
@@ -45,6 +46,7 @@ import notenexusIcon from "./projectIcons/notenexus.png"
 import promptmaniaIcon from "./projectIcons/promptmaniaIcon.svg"
 import threadsIcon  from "./projectIcons/threadsIcon.ico"
 import horizonIcon from "./projectIcons/horizon.svg";
+import budgettrackerIcon from "./projectIcons/vercel.png";
 export {
   logo,
   backend,
@@ -86,5 +88,7 @@ export {
   threads,
   threadsIcon,
   horizonIcon,
-  bank
+  bank,
+  budget,
+  budgettrackerIcon
 };
